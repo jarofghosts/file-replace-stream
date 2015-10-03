@@ -32,7 +32,9 @@ function fileReplaceStream (path) {
 
     writing = true
 
-    fs.write(fd, toWrite, 0, verifyWrite)
+    toWrite = new Buffer(toWrite)
+
+    fs.write(fd, toWrite, 0, toWrite.length, 0, verifyWrite)
 
     toWrite = null
 
