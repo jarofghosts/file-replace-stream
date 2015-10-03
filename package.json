@@ -1,0 +1,36 @@
+{
+  "name": "file-replace-stream",
+  "version": "1.0.0",
+  "description": "streaming file content replacer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard index.js test/index.js",
+    "test": "node test/index.js && npm run lint"
+  },
+  "keywords": [
+    "file",
+    "content",
+    "replace",
+    "stream"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tape": "^4.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarofghosts/file-replace-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jarofghosts/file-replace-stream/issues"
+  },
+  "homepage": "https://github.com/jarofghosts/file-replace-stream#readme"
+}
